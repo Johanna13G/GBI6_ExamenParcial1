@@ -1,3 +1,6 @@
+## Ejercicio 1.10.2 Hormone Levels in Baboons
+
+Gesquière et al. (2011) estudiaron los niveles hormonales en la sangre de los babuinos. Cada individuo fue muestreado varias veces.
 
 1. ¿Cuántas veces se registraron los niveles de los individuos 3 y 27?
 
