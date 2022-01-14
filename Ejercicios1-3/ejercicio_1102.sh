@@ -44,7 +44,7 @@ Dando como respuesta: 5
 
 Para esto se utilizará el siguiente comando para guardar los datos en una lista
 
-myIDS=tail -n +2 ../data/Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq
+myIDS=`tail -n +2 ../data/Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq`
 
 *sort –n* para ordenar los números
 *uniq* para que identifique solo elementos únicos
