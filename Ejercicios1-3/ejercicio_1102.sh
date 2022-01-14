@@ -51,7 +51,12 @@ myIDS=tail -n +2 ../data/Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq
 
 Luego para mostrar el número de veces que se muestreó a cada individuo se creó un bucle con *for* permite repetir una tarea con ligeras variaciones
 
-for id in $myIDS do mycounts=bash count_baboons.sh ../data/Gesquiere2011_data.csv $id echo "ID:" $id "counts:" $mycounts done
+for id in $myIDS
+do
+    mycounts=`bash count_baboons.sh ../data/Gesquiere2011_data.csv $id`
+    echo "ID:" $id "counts:" $mycounts
+done
+
 
 Se obtiene:
 
