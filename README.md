@@ -5,7 +5,13 @@ Nombre: Johanna Estefanía Guarango Veletanga
 
 Fecha de nacimiento: 13 de febrero de 1997
 
+Edad: 24 años
+
 Grupo sanguíneo: ORH+
+
+Alergias: ninguna
+
+Correo: johanna.guarango@est.ikiam.edu.ec
 
 ## Características del computador
 
